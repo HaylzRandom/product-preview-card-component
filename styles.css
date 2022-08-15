@@ -138,3 +138,34 @@ main {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 375px) {
+	.card-container {
+		flex-direction: column;
+		max-height: 611px;
+		width: 345px;
+	}
+	.product-container {
+		width: 100%;
+		padding: 25px;
+	}
+
+	.img-container {
+		width: 100%;
+		height: 240px;
+	}
+
+	.img-container {
+		background-image: url('./images/image-product-mobile.jpg');
+		background-size: 100% 100%;
+	}
+
+	.price-container {
+		margin: 15px 0;
+	}
+
+	.cart-btn {
+		width: 100%;
+		margin: 3px 0;
+	}
+}
